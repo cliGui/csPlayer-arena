@@ -1,0 +1,9 @@
+# Frontend
+node_modules
+dist
+tsconfig.tsbuildinfo
+.env
+
+# Editors / OS
+.idea/
+.DS_Store

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-wait-circle: waitCircleFrame 1s linear infinite;
+
+  @keyframes waitCircleFrame {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+}
+
+:root {
+  --tabs-height: 45px;
+  --tabs-button-height: 35px;
+}
+
+body {
+  position: relative;
+  font-family: Arial;
+  font-size: 14px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}

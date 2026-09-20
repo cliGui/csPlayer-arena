@@ -1,0 +1,20 @@
+[
+  {
+    "id": "csplayer",
+    "title": "csPlayer CSXU",
+    "description": "Build, execute, and monitor Command Services execution across destinations",
+    "urlMetaEnvParam": "VITE_CSPLAYER_WEBUI_URL"
+  },
+  {
+    "id": "airflow",
+    "title": "Airflow",
+    "description": "Orchestrate and schedule complex workflows and data pipelines",
+    "urlMetaEnvParam": "VITE_AIRFLOW_URL"
+  },
+  {
+    "id": "grafana",
+    "title": "Grafana",
+    "description": "Real-time monitoring and visualization of system metrics and performance",
+    "urlMetaEnvParam": "VITE_GRAFANA_URL"
+  }
+]
