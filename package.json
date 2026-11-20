@@ -5,8 +5,7 @@
   "type": "module",
   "main": "src/main.tsx",
   "scripts": {
-    "watch": "vite",
-    "typecheck": "tsc --noEmit",
+    "watch": "vite --host",
     "build": "tsc -b && vite build",
     "clean": "clean-windows"
   },

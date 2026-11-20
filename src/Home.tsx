@@ -31,7 +31,7 @@ export interface HomeProps {
 
 const Home = ({ setCurrentTabId }: HomeProps) => (
   <div 
-    className="flex flex-col w-full h-[calc(100%-var(--tabs-height))] overflow-auto">
+    className="flex flex-col w-full h-full overflow-auto">
     <div className="flex flex-col w-full items-center">
       <div className="grid grid-cols-1 lg:grid-cols-2 max-w-5xl w-[90%]" >
         {chapters.map(chapter =>

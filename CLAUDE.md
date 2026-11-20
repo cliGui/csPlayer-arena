@@ -3,6 +3,8 @@
 ## TypeScript
 
 - Prefer interfaces over type aliases.
+- Use an enum instead of union types.
+- Use await inside try/catch instead of .then()/.finally()
 - Use strict mode.
 
 ## React
@@ -31,3 +33,4 @@
 
 - DON'T MODIFY CODE BY YOURSELF! Always explain first why you suggest changing code, and then ask for permission first.
 - Keep functions under 40 lines.
+- Never use Powershell. Use cmd, or bash.
